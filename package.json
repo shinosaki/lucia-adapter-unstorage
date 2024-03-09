@@ -1,0 +1,44 @@
+{
+  "name": "lucia-adapter-unstorage",
+  "version": "1.0.0",
+  "description": "Unstorage adapter for Lucia (v3)",
+  "license": "MIT",
+  "author": "shinosaki",
+  "keywords": [
+    "lucia",
+    "lucia-auth",
+    "auth",
+    "authentication",
+    "adapter",
+    "unstorage"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinosaki/lucia-adapter-unstorage"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
+  "type": "module",
+  "files": [
+    "/dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx tests/unstorage.ts",
+    "auri.build": "pnpm build"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "peerDependencies": {
+    "lucia": "3.x",
+    "unstorage": "1.x"
+  },
+  "devDependencies": {
+    "@lucia-auth/adapter-test": "^5.0.0",
+    "lucia": "^3.0.1",
+    "tsx": "^4.7.1",
+    "unstorage": "^1.10.1"
+  }
+}
