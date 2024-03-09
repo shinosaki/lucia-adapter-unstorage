@@ -1,5 +1,7 @@
 # `lucia-adapter-unstorage`
 
+**This package is unofficial**
+
 [Unstorage](https://unstorage.unjs.io) adapter for Lucia v3.
 
 [*Official Unstorage adapter has been deprecated in v3.*](https://github.com/lucia-auth/lucia/discussions/1272)
