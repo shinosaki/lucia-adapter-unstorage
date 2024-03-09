@@ -12,6 +12,9 @@ npm install lucia-adapter-unstorage
 ```
 
 ## Example
+### Frameworks
+- [SvelteKit](/examples/sveltekit)
+
 ### Initialize Unstorage
 ```ts
 // db.ts
