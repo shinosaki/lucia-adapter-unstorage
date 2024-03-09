@@ -1,0 +1,9 @@
+pnpm-lock.yaml
+node_modules
+
+astro
+express
+nextjs-app
+nextjs-pages
+nuxt
+solidstart
